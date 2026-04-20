@@ -42,7 +42,7 @@ function About() {
         <div className="team-grid">
           <div className="team-card">
             <div className="team-avatar">👨‍🍳</div>
-            <h3>Bikash Gurun</h3>
+            <h3>Bikash Gurung</h3>
             <p className="role">Head Chef</p>
             <p>Chef Bikash brings over 15 years of experience in traditional Nepali cooking, specializing in authentic Himalayan flavors and family-style recipes.</p>
           </div>

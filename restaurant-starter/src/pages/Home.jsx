@@ -44,19 +44,19 @@ function Home() {
       <section>
         <div className="features">
           <div className="feature-card">
-            <div className="feature-icon">🍽️</div>
-            <h3>[Feature 1 Title]</h3>
-            <p>[Describe what makes this feature special about your restaurant.]</p>
+            <div className="feature-icon">🥟</div>
+            <h3>Authentic Nepali Cuisine</h3>
+            <p>Enjoy traditional dishes like momo, dal bhat, and flavorful curries made using authentic recipes and fresh ingredients straight from Nepali culinary traditions.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">⭐</div>
-            <h3>[Feature 2 Title]</h3>
-            <p>[Describe another highlight of your restaurant.]</p>
+            <div className="feature-icon">🏔️</div>
+            <h3>Himalayan Experience</h3>
+            <p>Our restaurant offers a cozy atmosphere inspired by the beauty of the Himalayas, giving you a cultural dining experience unlike any other.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">❤️</div>
-            <h3>[Feature 3 Title]</h3>
-            <p>[Describe a third thing that sets you apart.]</p>
+            <div className="feature-icon">🙏</div>
+            <h3>Warm Hospitality</h3>
+            <p>At Sagarmatha, we treat every guest like family, combining great food with genuine Nepali hospitality that keeps people coming back.</p>
           </div>
         </div>
       </section>
