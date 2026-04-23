@@ -11,13 +11,14 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyD_TMEndvIALEeHgy7g-lNvEmb8ap4YQVg",
+  authDomain: "sagarmatha-restaurant.firebaseapp.com",
+  projectId: "sagarmatha-restaurant",
+  storageBucket: "sagarmatha-restaurant.firebasestorage.app",
+  messagingSenderId: "503871916298",
+  appId: "1:503871916298:web:cd33c097eedbb099c192f3"
 };
 
 // Initialize Firebase

@@ -13,7 +13,7 @@ function Location() {
             ============================================================ */}
         <div className="location-info">
           <h2>Address</h2>
-          <p>123 Himalayan Way</p>
+          <p>123 Himalayan Plaza</p>
           <p>Durham, NC 27705</p>
           <p className="phone">(919) 555-7890</p>
 
@@ -39,8 +39,7 @@ function Location() {
 
           <h2>Getting Here</h2>
           <p>
-            [Write 1-2 sentences about how to find your restaurant. Is there
-            parking? Are you near a landmark? Public transit?]
+            Sagarmatha is conveniently located in downtown Durham, just minutes from Duke University and the American Tobacco Campus. Free street parking and nearby parking garages are available, and the restaurant is easily accessible by public transit and rideshare services.
           </p>
         </div>
 
@@ -54,18 +53,10 @@ function Location() {
             4. Uncomment the iframe below and paste your URL
             ============================================================ */}
         <div className="map-container">
-          <div className="map-placeholder">
-            <p>
-              📍 Google Maps embed goes here
-              <br />
-              <small>(See instructions in the code comments)</small>
-            </p>
-          </div>
-
-          {/* UNCOMMENT THIS in Week 4 and replace the URL:
+          {/* UNCOMMENT THIS in Week 4 and replace the URL:*/
           <iframe
             title="Restaurant Location"
-            src="YOUR_GOOGLE_MAPS_EMBED_URL_HERE"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6456.057804654634!2d-78.9055037!3d35.9951604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace47274e7cb57%3A0xee13502311e3fa8c!2sDowntown%2C%20Durham%2C%20NC!5e0!3m2!1sen!2sus!4v1776791198082!5m2!1sen!2sus"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -73,7 +64,7 @@ function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          */}
+          }
         </div>
       </div>
     </div>

@@ -76,8 +76,8 @@ function Contact() {
           TODO: Customize the heading and subtitle text below.
           ============================================================ */}
       <div className="contact-header">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you!</p>
+        <h1>Namaste from Sagarmatha</h1>
+        <p>Have a question or craving Nepali flavors? We’re here to help—reach out anytime!</p>
       </div>
 
       <div className="form-container">

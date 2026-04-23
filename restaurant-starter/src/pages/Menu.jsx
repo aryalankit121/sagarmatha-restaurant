@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 // ============================================================
 // WEEK 3: Uncomment these two imports AFTER setting up Firebase:
 // ============================================================
-// import { collection, getDocs } from "firebase/firestore";
-// import { db } from "../firebase";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase";
 
 // ============================================================
 // SAMPLE MENU DATA
@@ -14,7 +14,7 @@ import { useState, useEffect } from "react";
 // TODO (Week 2): You can update these items to match YOUR
 // restaurant if you want, but it's not required yet.
 // ============================================================
-const sampleMenuItems = [
+/*const sampleMenuItems = [
   {
     id: "1",
     name: "Sample Item One",
@@ -57,7 +57,7 @@ const sampleMenuItems = [
     price: 9.99,
     category: "Desserts",
   },
-];
+];*/
 
 function Menu() {
   const [menuItems, setMenuItems] = useState([]);
@@ -72,18 +72,18 @@ function Menu() {
         // Uncomment the block below and DELETE the sample data block
         // AFTER you set up Firebase and add your menu items.
         // ==========================================================
-        // const querySnapshot = await getDocs(collection(db, "menuItems"));
-        // const items = querySnapshot.docs.map((doc) => ({
-        //   id: doc.id,
-        //   ...doc.data(),
-        // }));
-        // setMenuItems(items);
+        const querySnapshot = await getDocs(collection(db, "menuItems"));
+        const items = querySnapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+        }));
+        setMenuItems(items);
 
         // ==========================================================
         // SAMPLE DATA VERSION (delete this block in Week 3)
         // ==========================================================
-        await new Promise((resolve) => setTimeout(resolve, 500));
-        setMenuItems(sampleMenuItems);
+      /* await new Promise((resolve) => setTimeout(resolve, 500));
+        setMenuItems(sampleMenuItems);*/
       } catch (err) {
         console.error("Error fetching menu:", err);
         setError("Failed to load menu. Please try again later.");
@@ -117,8 +117,11 @@ function Menu() {
     <div className="page">
       <div className="menu-header">
         {/* TODO: Customize this heading for YOUR restaurant */}
-        <h1>Our Menu</h1>
-        <p>[Add a short description of your menu here]</p>
+        <h1>Sagarmatha Menu</h1>
+        <p> Discover the rich flavors of Nepal through our carefully crafted menu, 
+          featuring traditional dishes like momo, dal bhat, and aromatic curries. 
+          Each item is prepared with authentic spices and fresh ingredients to bring 
+          you a true Himalayan dining experience.</p>
       </div>
 
       {categories.map((category) => (
