@@ -124,6 +124,10 @@ function Menu() {
           you a true Himalayan dining experience.</p>
       </div>
 
+      <div>
+        <img src="/food.png" alt="Thakali Khana Set" height="1000" width="1000"/>
+      </div>
+
       {categories.map((category) => (
         <div key={category} className="menu-category">
           <h2>{category}</h2>

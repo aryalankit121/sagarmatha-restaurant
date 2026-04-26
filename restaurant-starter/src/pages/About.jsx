@@ -7,6 +7,13 @@ function About() {
           ============================================================ */}
       <div className="about-header">
         <h1>About Sagarmatha</h1>
+          <img
+            src="/restaurantLogo.png"
+            width = "200"
+            height = "100"
+            alt="Sagarmatha Restaurant Logo"
+            className="logo-image"
+          />
         <p className="subtitle">Bringing Nepal to Your Table.</p>
       </div>
 
@@ -53,7 +60,13 @@ function About() {
             <p>Sita ensures every guest feels welcome, combining excellent service with a deep understanding of Nepali hospitality and culture.</p>
           </div>
           <div className="team-card">
-            <div className="team-avatar">👨‍🍳</div>
+          <img
+            src="/Sudip.jpg"
+            width = "100"
+            height = "150"
+            alt="Sagarmatha Restaurant Logo"
+            className="logo-image"
+            />
             <h3>Dr.Sudip Amgain</h3>
             <p className="role">Head of Cleaning & Hygiene</p>
             <p>Sudip leads cleanliness and hygiene operations, making sure Sagarmatha maintains the highest standards. A true expert in keeping everything spotless and organized.</p>

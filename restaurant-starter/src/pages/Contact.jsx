@@ -77,6 +77,7 @@ function Contact() {
           ============================================================ */}
       <div className="contact-header">
         <h1>Namaste from Sagarmatha</h1>
+        <img src="/Namaste.png" alt="Namaste" height = "500" width="500"/>
         <p>Have a question or craving Nepali flavors? We’re here to help—reach out anytime!</p>
       </div>
 

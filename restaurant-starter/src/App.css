@@ -97,16 +97,29 @@
    HOME PAGE
    ------------------------- */
 .hero {
+  /* This combines the dark tint AND the image */
   background: linear-gradient(
-      135deg,
-      rgba(44, 24, 16, 0.88),  /* TODO: YOUR dark color with opacity */
-      rgba(183, 65, 14, 0.7)   /* TODO: YOUR primary color with opacity */
-    );
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('/Sagarmatha.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   color: #F9F5F0;
   text-align: center;
-  padding: 6rem 2rem;
+  /* Use padding and min-height to give the mountain room to show up */
+  padding: 10rem 2rem; 
   margin: -3rem -2rem 3rem -2rem;
-  border-bottom: 4px solid #D4A24E; /* TODO: YOUR accent color */
+  border-bottom: 4px solid #D4A24E;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; 
 }
 
 .hero h1 {
@@ -580,9 +593,31 @@
     justify-content: center;
   }
 
-  .hero {
-    padding: 4rem 1.5rem;
-  }
+.hero {
+  /* This combines the dark tint AND the image */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('/Sagarmatha.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  color: #F9F5F0;
+  text-align: center;
+  /* Use padding and min-height to give the mountain room to show up */
+  padding: 10rem 2rem; 
+  margin: -3rem -2rem 3rem -2rem;
+  border-bottom: 4px solid #D4A24E;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; 
+}
 
   .hero h1 {
     font-size: 2.2rem;
