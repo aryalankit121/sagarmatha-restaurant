@@ -125,13 +125,26 @@ Responsible for maintaining the highest standards of cleanliness and ensuring ev
 
 ## 📸 Screenshots
 
-You can add screenshots of your application here.
+### 🏠 Home Page
+![Home Page Preview 1](./Screenshots/homepage1.png)
+![Home Page Preview 2](./Screenshots/homepage2.png)
+![Home Page Preview 3](./Screenshots/homepage3.png)
 
-- Home Page
-- About Page
-- Menu Page
-- Location Page
-- Contact Page
+### 📖 About Page
+![About Page Preview 1](./Screenshots/aboutpage1.png)
+![About Page Preview 2](./Screenshots/aboutpage2.png)
+
+### 🍛 Menu Page
+![Menu Page Preview 1](./Screenshots/menupage1.png)
+![Menu Page Preview 2](./Screenshots/menupage2.png)
+![Menu Page Preview 3](./Screenshots/menupage3.png)
+
+### 📍 Location Page
+![Location Page Preview](./Screenshots/locationpage.png)
+
+### 📩 Contact Page
+![Contact Page Preview 1](./Screenshots/contactpage1.png)
+![Contact Page Preview 2](./Screenshots/contactpage2.png)
 
 ---
 
